@@ -1,0 +1,37 @@
+@use './styles/common/reset' as *;
+@use './styles/common/utilities' as *;
+
+@use './styles/common/mixins' as m;
+@use './styles/common/fonts' as f;
+@use './styles/common/palette' as c;
+
+
+body {
+    header {
+        height: var(--header__height);
+        background-color: c.$PrimaryBg;
+        color: c.$PrimaryText;
+
+        h1 {
+
+        }
+    }
+
+    main {
+        min-height: var(--main__minHeight);
+        background-color: c.$SecondaryBg;
+    }
+
+    footer {
+        height: var(--footer__height);
+        background-color: c.$NavBg;
+    }
+}
+
+
+
+
+
+
+
+
